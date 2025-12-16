@@ -1,1 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 @import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  background-image: url("./assets/images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+.logo {
+  margin-bottom: 5rem;
+}
+button {
+  padding: 0.85rem 2.5rem;
+
+  color: white;
+
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.bt1:hover {
+  background: #26bba5;
+  background: linear-gradient(0deg, #26bba5 0%, #089589 100%);
+}
+.bt2:hover {
+  background: #26bba5;
+  background: linear-gradient(0deg, #6273ff 0%, #4d60ea 100%);
+}
+
+@media (max-width: 450px) {
+  body {
+    background-color: white;
+    background-image: url("./assets/images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    width: 80vw;
+    height: 3rem;
+  }
+}
