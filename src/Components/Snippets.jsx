@@ -18,17 +18,17 @@ export default function Snippets() {
           <div className="w-full sm:w-1/2 flex flex-col justify-center items-start gap-8 p-5">
             <div  className="flex flex-col justify-center sm:items-start items-center sm:w-[70%] w-full gap-2">
               <h3 className="text-2xl font-medium ">Quick Search</h3>
-              <p className="text-gray-400 w-full text-center sm:text-start">Easily search your snippets by content, category, web address, application, and more.</p>
+              <p className="text-gray-400 w-full text-center sm:text-start font-medium">Easily search your snippets by content, category, web address, application, and more.</p>
             </div>
             <div  className="flex flex-col justify-center sm:items-start items-center sm:w-[70%] w-full gap-2">
               <h3 className="text-2xl font-medium ">iCloud Sync</h3>
-              <p className="text-gray-400 w-full text-center sm:text-start">Instantly saves and syncs your snippets accross all devices.</p>
+              <p className="text-gray-400 w-full text-center sm:text-start font-medium">Instantly saves and syncs your snippets accross all devices.</p>
             </div >
             <div className="flex flex-col justify-center sm:items-start items-center sm:w-[70%] w-full gap-2">
               <h3 className="text-2xl font-medium ">
                 Complete History
               </h3>
-              <p className="text-gray-400 w-full text-center sm:text-start">Retrieve any snippets from the first moment you started using the app.</p>
+              <p className="text-gray-400 w-full text-center sm:text-start font-medium">Retrieve any snippets from the first moment you started using the app.</p>
 
             </div>
 
