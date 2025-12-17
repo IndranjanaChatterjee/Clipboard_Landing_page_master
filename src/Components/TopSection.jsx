@@ -4,7 +4,7 @@ import logo from "../assets/images/logo.svg";
 export default function TopSection() {
   return (
     <div className="flex justify-center items-center flex-col gap-4 text-center sm:gap-6 ">
-      <img src={logo} alt="logo" className=" logo" />
+      <img src={logo} alt="logo" className=" logo mt-32" />
       <h1 className="font-semibold text-4xl sm:text-5xl">A history of everything you copy</h1>
       <p className="sm:w-[70%] text-gray-400">
         Clipboard allows you to track and organize everything you copy. Instantly
