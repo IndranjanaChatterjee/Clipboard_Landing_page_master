@@ -15,7 +15,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [solution URL](https://github.com/IndranjanaChatterjee/Clipboard_Landing_page_master)
-- Live Site URL: [live site URL](https://article-preview-component-two-eta.vercel.app/)
+- Live Site URL: [live site URL](https://clipboard-landing-page-master-orpin.vercel.app/)
 
 
 
