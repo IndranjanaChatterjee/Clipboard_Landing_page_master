@@ -5,7 +5,7 @@ import text from "../assets/images/icon-text.svg";
 
 export default function Tools() {
   return (
-    <div className="flex flex-col justify-center items-center mx-auto  sm:w-[70%] w-[95%]">
+    <div className="flex flex-col justify-center items-center mx-auto  sm:w-[70%] w-[95%] mt-4">
       <div className="flex justify-center items-center flex-col mb-24">
         <h1 className="text-center flex justify-center items-center text-4xl font-medium mb-6">
           Supercharge your workflow

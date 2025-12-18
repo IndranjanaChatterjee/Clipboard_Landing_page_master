@@ -5,7 +5,7 @@ export default function Snippets() {
   return (
     <div className="snippets w-[100vw]  flex flex-col justify-center items-center">
       <h1 className="text-4xl font-medium mb-6 text-center px-1 sm:px-0">Keep track of your snippets</h1>
-      <p className="w-full sm:w-[40%] text-center flex justify-center items-center text-gray-400 mb-16">
+      <p className="w-full sm:w-[40%] text-center flex justify-center items-center text-gray-400 mb-16 ">
         Clipboard instantly stores any item you copy in the cloud, meaning you
         can access your snippets immediately on all devices . Our Mac and iOS apps
         will help you organize everything.
